@@ -1,0 +1,11 @@
+.env
+mlruns/
+notebooks/
+data/
+artifacts/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+.pytest_cache/
+.vscode/

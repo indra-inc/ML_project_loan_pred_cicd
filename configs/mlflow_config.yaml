@@ -1,0 +1,12 @@
+mlflow:
+  tracking_uri: http://127.0.0.1:5000
+
+
+experiment_name: loan_approval_prediction_experiment
+registered_model_name: loan_approval_model
+
+
+model_registry:
+  stages:
+    dev: Staging
+    prod: Production

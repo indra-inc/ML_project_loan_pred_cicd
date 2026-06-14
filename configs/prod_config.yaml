@@ -1,0 +1,15 @@
+project:
+  name: loan_approval_prediction
+  environment: prod
+
+data:
+  source_type: sql
+  table_name: loan_approval_dataset
+  target_column: loan_status
+
+database:
+  connection_env_var: DATABASE_URL
+
+training:
+  test_size: 0.2
+  random_state: 42
