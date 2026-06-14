@@ -57,7 +57,7 @@ jobs:
 
       - name: Check FastAPI app imports
         run: |
-          python -c "from app.config import config; print(config)"
+          python -c "from app.config import app_config; print(config)"
           python -c "from app.main import app; print(app.title)"
 
       - name: Build Docker image
