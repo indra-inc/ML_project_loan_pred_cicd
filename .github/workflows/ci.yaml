@@ -21,9 +21,9 @@ jobs:
       APP_VERSION: 1.0.0
 
       MLFLOW_TRACKING_URI: http://127.0.0.1:5000
-      REGISTERED_MODEL_NAME: Prediction_Model_RF
-      MODEL_VERSION: "1"
-      MODEL_ALIAS: ""
+      REGISTERED_MODEL_NAME_RF: Prediction_Model_RF
+      MODEL_VERSION_RF: "1"
+      MODEL_ALIAS_RF: "baseline"
 
       TARGET_POSITIVE_LABEL: Rejected
       TARGET_NEGATIVE_LABEL: Approved
